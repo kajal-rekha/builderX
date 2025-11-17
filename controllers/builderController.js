@@ -3,11 +3,10 @@ import Builder from "@/models/Builder";
 // ======= Create Builder ======= //
 export const createBuilder = async (req, res) => {
     try {
-        const { components, projectName } = req.body;
-        const userId = req.user._id;
+        const { user_id, components, projectName } = req.body;
 
         const builder = await Builder.create({
-            user_id: userId,
+            user_id,
             components,
             projectName,
         });
