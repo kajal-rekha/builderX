@@ -10,7 +10,11 @@ const Hero = () => {
                     <p>
                         Lorem ipsum dolor, sit amet consectetur adipisicing
                         elit. Maiores beatae, nostrum reprehenderit nesciunt
-                        quidem labore ratione inventore .
+                        quidem labore ratione inventore. Lorem ipsum dolor sit
+                        amet consectetur, adipisicing elit. Dolorum atque fuga,
+                        aut magni neque corporis ullam placeat quaerat eum.
+                        Eveniet unde odit repudiandae minus ex? Obcaecati
+                        facilis nulla ducimus adipisci.
                     </p>
                     <div>
                         <button className="bg-blue-500 text-white px-3 py-2 rounded-md cursor-pointer ">
